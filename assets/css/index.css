@@ -431,21 +431,55 @@ header .nav__link {
 }
 /* SLIDE SHOW */
 #slide-show {
-    margin: 120px 0 40px;
+  margin: 120px 0 40px;
+  overflow: hidden;
 }
+
+#slide-show .slider-wrapper {
+  overflow: hidden;
+}
+
 #slide-show .slider {
-    margin: 0;
-    padding: 0 0 20px;
-    display: flex;
-    gap: 20px;
-    overflow: hidden;
+  margin: 0;
+  padding: 0 0 20px;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  width: max-content;
+  will-change: transform;
 }
+
+#slide-show .slider-left .slider {
+  animation: marquee-left 60s linear infinite;
+}
+
+#slide-show .slider-right .slider {
+  animation: marquee-right 60s linear infinite;
+}
+
 #slide-show .slide {
-    width: 100%;
-    height: auto;
+  flex-shrink: 0;
 }
+
 #slide-show .slide img {
-    object-fit: cover;
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+#slide-show .slider-wrapper:hover .slider {
+  animation-play-state: paused;
+}
+
+@keyframes marquee-left {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes marquee-right {
+  0%   { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
 }
 
 /* RESULTS */
@@ -496,7 +530,7 @@ header .nav__link {
     padding:0px 70px;
     color:var(--font-color);
     margin-top: 32px;
-    /* line-height: 55px; */
+    line-height: 40px;
     font-size: var(--font-size24);
     letter-spacing: 0.48px;
     font-family: var(--font-maru);
@@ -1581,28 +1615,23 @@ footer {
 
     /* SLIDESHOW MOBILE */
     #slide-show {
-        margin: 60px 0 0;
-    }
-    #slide-show .slider {
-        display: flex;
-        gap: 16px;
-        overflow: hidden;
-    }
-    #slide-show .slide {
-        width: 40%;
-        height: auto;
-        flex-shrink: 0;
+        margin: 60px 0 0 0;
     }
     #slide-show .slide img {
-        width: 100%;
-        max-width: 320px;
-        min-width: 135px;
-        height: auto;
-        object-fit: cover;
+    width: 153px;
+    height: 123px;
+   }
+    #slide-show .slide {
+        width: 153px;
     }
+
+    #slide-show .slider {
+        gap: 16px;
+    }
+    
     /* RESULTS MOBILE */
     #results {
-        padding: 80px 0 0;
+        padding: 60px 0 60px 0;
     }
     #result .results__header .results__label {
         font-size: var(--font-size14);
@@ -1635,8 +1664,12 @@ footer {
         font-weight: 400;
         text-align: center;  
     }
-    #results .result__body--p {
-        margin-top: 50px;
+    #results .results__body{
+        margin-top: 20px;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+        padding: 0 50px;
     }
     #results .results__body--p .mb {
         display: inline;
