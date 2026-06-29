@@ -486,6 +486,9 @@ header .nav__link {
 #results .results__inner{
     text-align: center;
 }
+#results .results__body--p-bottom{
+    margin-top: 30px;
+}
 #results .results__header .results__label {
     font-family: var(--font-maru);
     color: var(--color-primary);
