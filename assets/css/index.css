@@ -1505,6 +1505,30 @@ footer {
 .footer__bottom .footer__bottom-inner a:hover {
     opacity: 0.8;
 }
+
+/* after sport festival */
+.program__card{
+    position: relative;
+}
+.one_crown img{
+    width: 105px;
+    position: absolute;
+    top: -43px;
+    left: -21px;
+}
+.two_crown{
+    display: flex;
+}
+.two_crown img{
+    width: 105px;
+    position: absolute;
+    top: -43px;
+    left: -21px;
+}
+.two_crown img:last-child{
+    left: 55px;
+}
+
 /* MOBILE */
 
 @media screen and (max-width: 998px) {

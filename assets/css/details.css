@@ -282,6 +282,19 @@ ol {
     font-size: 36px;
     margin: 0 0 16px;
 }
+.item__text_small {
+    font-size: 32px !important;
+    margin-top: 4rem !important;
+}
+.item__text_time{
+    margin-top: 2.2rem;
+}
+.item__text_time span{
+    font-weight: 600;
+}
+.item__text_small_time{
+    font-weight: 600;
+}
 .item__text h4 .name {
     font-size: 28px;
 }
@@ -594,6 +607,26 @@ footer {
 }
 .footer__bottom .footer__bottom-inner a:hover {
     opacity: 0.8;
+}
+
+/*after the festival is finished*/
+.item__img_one_crown img{
+    width: 105px;
+    position: absolute;
+    top: 0px;
+    left: -20px;
+}
+.item__img_two_crown{
+    display: flex;
+}
+.item__img_two_crown img{
+    width: 105px;
+    position: absolute;
+    top: 0;
+    left: -20px;
+}
+.item__img_two_crown img:last-child{
+    left: 55px;
 }
 
 /* MOBILE */
