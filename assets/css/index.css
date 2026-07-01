@@ -1509,6 +1509,7 @@ footer {
 /* after sport festival */
 .program__card{
     position: relative;
+    display: inline-block;
 }
 .one_crown img{
     width: 105px;

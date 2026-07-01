@@ -262,6 +262,8 @@ ol {
     height: auto;
     padding-top: 40px;
     padding-bottom: 18px;
+    position: relative;
+    display: inline-block;
 }
 .item__img-sub{
     padding: 40px;
@@ -323,7 +325,9 @@ ol {
 }
 
 @media (600px <= width < 1200px) {
-   
+    .item__img_one_crown img{
+
+    }
     .contents h3 {
         font-size: 42px;
     }
