@@ -378,6 +378,30 @@ header .nav__link {
     fill: var(--color-primary);
 }
 
+.event-ended {
+    width: 100%;
+    height: 20vh;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.event-ended__text {
+    width: 100%;
+    padding: 80px;
+    margin: 0;
+    font-family: var(--font-maru);
+    font-size: var(--font-size40);
+    font-weight: bold;
+    color: #fff;
+    background-color: #000000ae;
+    letter-spacing: 2%;
+    text-align: center;
+}
+
 /* MARQUEE */
 .marquee {
     margin-top: 40px;
@@ -1598,7 +1622,10 @@ footer {
         font-size: var(--font-size54);
         letter-spacing: 1px;
     }
-    
+    .event-ended__text {
+        padding: 40px;
+        font-size: clamp(20px, 3.236vw + 7.7px, 40px);
+    }
     /* MARQUEE MOBILE */
 
     .marquee {
@@ -1657,8 +1684,8 @@ footer {
         padding:0px;
         color:var(--font-color);
         margin-top: 8px;
-        /* line-height: 55px; */
-        font-size: var(--font-size10);
+        line-height: 15px;
+        font-size: var(--font-size20);
         letter-spacing: 0.48px;
         font-family: var(--font-maru);
         font-weight: 400;
@@ -1671,6 +1698,9 @@ footer {
         text-align: center;
         padding: 0 50px;
     }
+    #results .results__body--p-bottom{
+    margin-top: 16px;
+}
     #results .results__body--p .mb {
         display: inline;
     }
