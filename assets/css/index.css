@@ -391,10 +391,10 @@ header .nav__link {
 }
 .event-ended__text {
     width: 100%;
-    padding: 60px;
+    padding: 30px;
     margin: 0;
     font-family: var(--font-maru);
-    font-size: var(--font-size40);
+    font-size: var(--font-size32);
     font-weight: bold;
     color: #fff;
     background-color: #000000ae;
@@ -1648,7 +1648,7 @@ footer {
         letter-spacing: 1px;
     }
     .event-ended__text {
-        padding: 40px;
+        padding: 20px;
         font-size: clamp(20px, 3.236vw + 7.7px, 40px);
     }
     /* MARQUEE MOBILE */
