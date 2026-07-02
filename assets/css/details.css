@@ -325,9 +325,6 @@ ol {
 }
 
 @media (600px <= width < 1200px) {
-    .item__img_one_crown img{
-
-    }
     .contents h3 {
         font-size: 42px;
     }
