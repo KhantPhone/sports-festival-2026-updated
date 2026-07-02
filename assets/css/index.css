@@ -380,7 +380,7 @@ header .nav__link {
 
 .event-ended {
     width: 100%;
-    height: 20vh;
+    height: 24vh;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -391,7 +391,7 @@ header .nav__link {
 }
 .event-ended__text {
     width: 100%;
-    padding: 80px;
+    padding: 60px;
     margin: 0;
     font-family: var(--font-maru);
     font-size: var(--font-size40);
