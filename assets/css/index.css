@@ -474,11 +474,11 @@ header .nav__link {
 }
 
 #slide-show .slider-left .slider {
-  animation: marquee-left 300s linear infinite;
+  animation: marquee-left 200s linear infinite;
 }
 
 #slide-show .slider-right .slider {
-  animation: marquee-right 300s linear infinite;
+  animation: marquee-right 200s linear infinite;
 }
 
 #slide-show .slide {
@@ -488,7 +488,7 @@ header .nav__link {
 #slide-show .slide img {
   display: block;
   width : 320px;
-    height : 240px;
+  height : 240px;
   height: auto;
   object-fit: cover;
 }
