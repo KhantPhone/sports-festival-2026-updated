@@ -218,6 +218,17 @@ body {
 .contents {
     display: none;
 }
+.quiz_title {
+    font-weight: 450;
+}
+.quiz {
+    font-size: 16px!important;
+    text-align: right;
+}
+.quiz__bottom {
+    font-size: 16px!important;
+    text-align: right;
+}
 .contents.active {
     display: block;
     padding: 0 8%;

@@ -458,7 +458,9 @@ header .nav__link {
   margin: 120px 0 40px;
   overflow: hidden;
 }
-
+#slide-show img{
+    
+}
 #slide-show .slider-wrapper {
   overflow: hidden;
 }
@@ -474,11 +476,11 @@ header .nav__link {
 }
 
 #slide-show .slider-left .slider {
-  animation: marquee-left 60s linear infinite;
+  animation: marquee-left 300s linear infinite;
 }
 
 #slide-show .slider-right .slider {
-  animation: marquee-right 60s linear infinite;
+  animation: marquee-right 300s linear infinite;
 }
 
 #slide-show .slide {
@@ -487,7 +489,8 @@ header .nav__link {
 
 #slide-show .slide img {
   display: block;
-  width: 100%;
+  width : 320px;
+    height : 240px;
   height: auto;
   object-fit: cover;
 }
