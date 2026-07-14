@@ -1690,7 +1690,7 @@ footer {
         display: contents;
     }
     #results {
-        padding: 60px 0 30px 0;
+        padding: 60px 0 60px 0;
     }
     #result .results__header .results__label {
         font-size: var(--font-size14);
@@ -1733,16 +1733,24 @@ footer {
         display: inline;
     }
     #results .results__btn {
+        font-family: var(--font-maru);
+        color: var(--font-color);
+        margin-top: 30px;
+        display: flex;    
+        justify-content: center;
         align-items: center;
-        padding: 10px 20px;
-        font-size: var(--font-size14);
+        width: fit-content;
+        background-color: var(--color-primary);
+        color: var(--color-bg);
+        border: none;
+        border-radius: 999px;
+        padding: 10px 30px;
+        font-size: var(--font-size20);
+        font-weight: 500;
+        cursor: pointer;
         margin-right: 20px;
     }
-    .results__btn-icon {
-        width: 19px;
-        height: auto;
-        margin-left: 10px;
-    }
+    
     
     /* THEME MOBILE */
 
