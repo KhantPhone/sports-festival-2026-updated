@@ -391,7 +391,7 @@ header .nav__link {
 }
 .event-ended__text {
     width: 100%;
-    padding: 30px;
+    padding: 40px;
     margin: 0;
     font-family: var(--font-maru);
     font-size: var(--font-size32);
