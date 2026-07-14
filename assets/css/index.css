@@ -1716,18 +1716,15 @@ footer {
         padding:0px;
         color:var(--font-color);
         margin-top: 8px;
-        line-height: 22px;
-        font-size: var(--font-size14);
-        letter-spacing: 0.48px;
+        line-height: 40px;
+        font-size: var(--font-size18);
+        letter-spacing: 5%;
         font-family: var(--font-maru);
         font-weight: 400;
-        text-align: center;  
-    }
-    #results .results__body{
+        text-align: center; 
         margin-top: 20px;
-        line-height: 23px;
         text-align: center;
-        padding: 0 50px;
+        padding: 0 20px; 
     }
     #results .results__body--p-bottom{
     margin-top: 16px;
