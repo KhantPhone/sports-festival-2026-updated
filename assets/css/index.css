@@ -515,21 +515,24 @@ header .nav__link {
     text-align: center;
 }
 #results .results__body--p-bottom{
-    margin-top: 30px;
+    margin-top: 20px;
+}
+#results .winner_team {
+    font-weight : 600;
 }
 #results .results__header .results__label {
     font-family: var(--font-maru);
     color: var(--color-primary);
     font-size: var(--font-size18);
     font-weight: 900;
-    text-align: center;
+    
 }
 #results .results__header .results__title {
     font-family: var(--font-maru);
     color: var(--font-color);
     font-size: var(--font-size58);
     font-weight: 700;
-    text-align: center;
+   
 }
 #results .results-content {
     margin: 64px auto;
@@ -1682,8 +1685,11 @@ footer {
     }
     
     /* RESULTS MOBILE */
+    #results br{
+        display: contents;
+    }
     #results {
-        padding: 60px 0 60px 0;
+        padding: 60px 0 30px 0;
     }
     #result .results__header .results__label {
         font-size: var(--font-size14);
@@ -1709,8 +1715,8 @@ footer {
         padding:0px;
         color:var(--font-color);
         margin-top: 8px;
-        line-height: 15px;
-        font-size: var(--font-size20);
+        line-height: 22px;
+        font-size: var(--font-size14);
         letter-spacing: 0.48px;
         font-family: var(--font-maru);
         font-weight: 400;
@@ -1718,8 +1724,7 @@ footer {
     }
     #results .results__body{
         margin-top: 20px;
-        font-size: 12px;
-        line-height: 20px;
+        line-height: 23px;
         text-align: center;
         padding: 0 50px;
     }
