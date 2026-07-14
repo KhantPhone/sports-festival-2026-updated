@@ -313,7 +313,8 @@ ol {
 }
 .item-sm{
     font-size: 20px;
-    float: right;
+    display: block;
+    text-align: right;
 }
 .item__text h4 .name {
     font-size: 28px;
@@ -744,6 +745,24 @@ footer {
     }
     .title{
         margin: 0px;
+    }
+
+    .item__text_time{
+        margin-top: 2.2rem;
+    }
+    .item__text_time span{
+        font-weight: 600;
+    }
+    .item__text_small_time{
+        font-weight: 600;
+    }
+    .item__text__small{
+    font-size: 20px;
+  
+    }
+    .item-sm{
+        font-size: 16px;
+        
     }
     footer {
         background-color: var(--color-primary);
