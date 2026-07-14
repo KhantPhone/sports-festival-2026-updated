@@ -303,10 +303,10 @@ ol {
     margin-top: 2.2rem;
 }
 .item__text_time span{
-    font-weight: 600;
+    font-weight: 450;
 }
 .item__text_small_time{
-    font-weight: 600;
+    font-weight: 450;
 }
 .item__text__small{
    font-size: 26px;
@@ -751,10 +751,10 @@ footer {
         margin-top: 2.2rem;
     }
     .item__text_time span{
-        font-weight: 600;
+        font-weight: 420;
     }
     .item__text_small_time{
-        font-weight: 600;
+        font-weight: 420;
     }
     .item__text__small{
     font-size: 20px;
